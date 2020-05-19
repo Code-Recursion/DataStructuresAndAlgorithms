@@ -4,38 +4,50 @@
 #include <iostream>
 using namespace std;
 
+template <class T>
 class Arithematic
 {
 private:
-    int A;
-    int B;
+    T A;
+    T B;
 
 public:
-    Arithematic(int newA, int newB);
-    int add();
-    int sub();
+    Arithematic(T newA, T newB);
+    T add();
+    T sub();
 };
 
-Arithematic::Arithematic(int newA, int newB)
+template <class T>
+
+Arithematic<T>::Arithematic(T newA, T newB)
 {
     this->A = newA;
     this->B = newB;
 }
 
-int Arithematic ::add()
+template <class T>
+
+T Arithematic<T>::add()
 {
     return A + B;
 }
-int Arithematic ::sub()
+
+template <class T>
+
+T Arithematic<T>::sub()
 {
     return A - B;
 }
 
 int main()
 {
-    Arithematic AR(15, 5);
-    cout << "Sum : " << AR.add() << endl;
-    cout << "Sub : " << AR.sub();
+    Arithematic<int> AR1(15, 5);
+    cout << "Sum : " << AR1.add() << endl;
+    cout << "Sub : " << AR1.sub() << endl;
+
+    Arithematic<float> AR2(12.6, 5.2);
+    cout << "Sum : " << AR2.add() << endl;
+    cout << "Sub : " << AR2.sub();
 }
 
 //  output :

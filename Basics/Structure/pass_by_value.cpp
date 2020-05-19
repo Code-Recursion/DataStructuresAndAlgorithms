@@ -9,7 +9,7 @@ struct Rectangle
 void area_of_rectangle(struct Rectangle R)
 {
     cout << R.length * R.breadth;
-    R.breadth = 20; // modify the value of breadth won't change the actual structure
+    R.breadth = 20; // modify the value of breadth won't change the actual structure memebers
 }
 
 int main()
