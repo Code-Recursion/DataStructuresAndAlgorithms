@@ -53,3 +53,5 @@ int main()
 //  output :
 //  Sum : 20
 //  Sub : 10
+//  Sum : 17.8
+//  Sub : 7.4
