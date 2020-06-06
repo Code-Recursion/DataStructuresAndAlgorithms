@@ -1,2 +1,2 @@
 # Data Structures and Algorithms
-### `All Beautiful codes that i write with Love 💜😀.`
+#### `All Beautiful codes that i write while learning.`
