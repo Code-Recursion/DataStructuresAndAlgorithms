@@ -19,7 +19,7 @@ int main()
     a = 5;
     b = 10;
     cout << "Before : " << a << " " << b << endl;
-    swap(&a, &b); // actual parameters
+    swap(a, b); // actual parameters
     cout << "After : " << a << " " << b;
 }
 /* output :
