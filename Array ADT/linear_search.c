@@ -74,7 +74,6 @@ int main()
 // Element found at index : 2
 // Element in array are : 4 3 2 5 6
 
-
 // Analysis :
 // worst : O[n]
 // Best : O[1]
