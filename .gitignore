@@ -1,6 +1,7 @@
 *.exe
 .vscode
 .gitignore
-.json
+*.json
 tempCodeRunnerFile.c
+
 
