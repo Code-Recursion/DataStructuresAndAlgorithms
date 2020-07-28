@@ -55,6 +55,6 @@ int main()
 // Pass : n - 1
 // max no. of Swaps 1 + 2 + 3 + ... + n - 1 = O(n^2)
 // no. of Comparison 1 + 2 + 3 + ... + n - 1 = O(n^2)
-// O(n^2), Quadratic
+// Best : O(n), Worst :O(n^2)
 
 // Splace : O(1), Constant

@@ -1,6 +1,6 @@
-// Bubble sort
-// Bubble sort is Adaptive and Stable sort
-// the lightest elements bubbles up and heavier gets settled down
+// Insertion sort
+// Insertion sort is Adaptive and Stable sort
+// Insertion sort is made for insertion in a Linked List
 
 #include <iostream>
 using namespace std;
@@ -47,9 +47,8 @@ int main()
 // Analysis :
 
 // Time :
-// Pass : n - 1
+// Pass : n - 1 = O(n)
 // max no. of Swaps 1 + 2 + 3 + ... + n - 1 = O(n^2)
-// no. of Comparison 1 + 2 + 3 + ... + n - 1 = O(n^2)
-// O(n^2), Quadratic
+// No. of Comparison 1 + 2 + 3 + ... + n - 1 = O(n^2)
 
 // Splace : O(1), Constant
