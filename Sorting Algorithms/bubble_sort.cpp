@@ -26,6 +26,7 @@ void BubbleSort(int Arr[], int size)
                 flag = 1; // turns the flag on if swapping is done
             }
         }
+
         if (flag == 0)
             return; // break if no swapping is done means list is already sorted
     }
@@ -38,16 +39,10 @@ void Display(int Arr[], int size)
 }
 int main()
 {
-    int Arr[] = {3,
-                 6,
-                 4,
-                 9,
-                 2,
-                 8,
-                 12,
-                 10};
+    int Arr[] = {3, 6, 4, 9, 2, 8, 12, 10};
 
     int size = sizeof(Arr) / sizeof(Arr[0]);
+
     BubbleSort(Arr, size);
     Display(Arr, size);
 
