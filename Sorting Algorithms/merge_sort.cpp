@@ -60,7 +60,7 @@ void RecursiveMergeSort(int A[], int low, int high)
 
 void Display(int Arr[], int size)
 {
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size; i++)
         cout << Arr[i] << " ";
 }
 
@@ -70,13 +70,13 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int Arr[] = {2, 5, 8, 12, 3, 6, 7, 10};
+    int Arr[] = {2, 6, 4, 12, 10, 9, 7, 8};
     int size = sizeof(Arr) / sizeof(Arr[0]);
 
     int low = 0;
     int high = size - 1;
-    // int mid = (low + high) / 2;
 
+    // int mid = (low + high) / 2;
     // Merge(Arr, 0, mid, size);
     // IterativeMergeSort(Arr, size);
 
